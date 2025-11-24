@@ -1,86 +1,109 @@
-# Area 2: Student Accommodation Landing Page
+# 🏠 Area 2: Student Accommodation
 
-> Developed by **Waseeq Haider**
+<div align="center">
 
-## Project Overview
+![Musafir Retreats](https://img.shields.io/badge/Musafir-Retreats-green?style=for-the-badge)
+![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite)
 
-This is a modern, responsive landing page for **Area 2: Student Accommodation** at Musafir Retreats. The project showcases student housing facilities with an interactive, visually rich interface featuring image galleries, floor plans, location maps, and detailed facility information.
+**A modern, interactive landing page showcasing student accommodation facilities at Musafir Retreats & Camps**
 
-## Tech Stack
+[Live Demo](#) • [Documentation](#features) • [Report Bug](#)
 
-This project is built with:
+</div>
 
-- **Vite** - Fast build tool and dev server
-- **TypeScript** - Type-safe JavaScript
-- **React** - UI component library
-- **shadcn-ui** - High-quality UI components
-- **Tailwind CSS** - Utility-first CSS framework
+---
 
-## Getting Started
+## 📸 Screenshot
+
+<div align="center">
+
+![Area 2 - Student Accommodation](./screenshots/area2-preview.png)
+
+*Full page preview of Area 2 landing page*
+
+</div>
+
+---
+
+## ✨ Features
+
+- 🎨 **Modern UI/UX** - Clean, responsive design with smooth animations
+- 🖼️ **Interactive Galleries** - Beautiful image showcases with lightbox functionality
+- 🗺️ **3D Floor Plans** - Interactive 3D visualization of accommodation layouts
+- 📍 **Location Maps** - Integrated mapping for easy navigation
+- 🎯 **Site Map** - Interactive site map showing all 7 areas
+- 📱 **Fully Responsive** - Optimized for all devices and screen sizes
+- ⚡ **Lightning Fast** - Built with Vite for optimal performance
+- ♿ **Accessible** - WCAG compliant with semantic HTML
+
+---
+
+## 🛠️ Tech Stack
+
+- **[React 18.3](https://react.dev/)** - UI component library
+- **[TypeScript 5.8](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[Vite 5.4](https://vitejs.dev/)** - Next-generation build tool
+- **[Tailwind CSS 3.4](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[shadcn/ui](https://ui.shadcn.com/)** - High-quality React components
+- **[React Three Fiber](https://docs.pmnd.rs/react-three-fiber/)** - 3D graphics with Three.js
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or higher recommended)
-- npm or yarn package manager
-
-Install Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for version management.
+- **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
+- **npm** or **yarn** package manager
 
 ### Installation
 
-```sh
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
+```bash
 # Navigate to the project directory
 cd Area2-Student-Accomodation
 
 # Install dependencies
-npm install
+npm install --legacy-peer-deps
 
 # Start the development server
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
-
-## Development
-
-### Project Structure
-
-```
-src/
-├── components/     # React components
-├── pages/          # Page components
-├── assets/         # Images and static files
-└── styles/         # CSS and styling files
-```
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## Deployment
-
-Build the project for production:
-
-```sh
-npm run build
-```
-
-The optimized files will be in the `dist/` directory, ready for deployment to any static hosting service.
-
-## Features
-
-- Interactive image galleries
-- 3D floor plan visualization
-- Location and site maps
-- Responsive design
-- Smooth animations and transitions
-- SEO optimized
+Open `http://localhost:8080` in your browser! 🎉
 
 ---
 
-**Developer**: Waseeq Haider
+## 📜 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server at `http://localhost:8080` |
+| `npm run build` | Build for production (outputs to `dist/`) |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint to check code quality |
+
+---
+
+## 🌐 Deployment
+
+```bash
+npm run build
+```
+
+The optimized production files will be in the `dist/` directory, ready for deployment to any static hosting service.
+
+---
+
+## 👨‍💻 Developer
+
+**Waseeq Haider**
+
+---
+
+<div align="center">
+
+Made with ❤️ for Musafir Retreats & Camps
+
+</div>
