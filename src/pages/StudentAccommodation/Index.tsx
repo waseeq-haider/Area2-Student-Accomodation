@@ -8,22 +8,27 @@ import { SpecificItems } from "@/components/student-accommodation/SpecificItems"
 import { References } from "@/components/student-accommodation/References";
 import { ImageGallery } from "@/components/student-accommodation/ImageGallery";
 import { Footer } from "@/components/student-accommodation/Footer";
+import { Navigation } from "@/components/Navigation";
 
 const StudentAccommodation = () => {
     return (
-        <div className="min-h-screen">
-            <Hero />
-            <Summary />
-            <Features />
-            <Location />
-            <SiteMap />
-            <FloorPlan />
-            <SpecificItems />
-            <References />
-            <ImageGallery />
-            <Footer />
-        </div>
+        <>
+            <Navigation currentAreaId={2} />
+            <div className="min-h-screen pt-16">
+                <Hero />
+                <Summary />
+                <Features />
+                <Location />
+                <SiteMap />
+                <FloorPlan />
+                <SpecificItems />
+                <References />
+                <ImageGallery />
+                <Footer />
+            </div>
+        </>
     );
 };
 
 export default StudentAccommodation;
+
